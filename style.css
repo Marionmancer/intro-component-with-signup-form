@@ -11,12 +11,16 @@ body{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  width: 1440px;
+  height: 800px; /*To ewentualnie usunąć*/
   margin: 0;
   padding: 0;
   background-color: hsl(0, 100%, 74%);
   background-image: url("./images/bg-intro-desktop.png");
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1{
@@ -37,29 +41,20 @@ p{
   display: flex;
   width: 1100px;
   height: 800px; /*To ewentualnie usunąć*/
-  margin: 30px 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 170px;
 }
 
-#left-container{
+#container > div{
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   height: 80%;
-  margin-top: 10%;
+  margin: 80px 0;
 }
 
 #right-container{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
-  height: 80%;
-  margin-top: 10%;
 }
 
 #try-for-free{
@@ -82,19 +77,19 @@ p{
   justify-content: space-around;
 }
 
-#new-user-data-form div{
+#new-user-data-form > div{
   background-color: green;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 } 
 
-#new-user-data-form button{
+#trial-claim > button{
   background-color: rgb(0, 136, 255);
   width: 100%;
 }
 
 #disclaimer{
-  font-size: 0.5rem;
-
+  font-size: 0.7rem;
+  padding: 10px 0;
 }
