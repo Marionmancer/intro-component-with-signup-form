@@ -18,8 +18,8 @@
   <div id="container">
     <div id="left-container">
       <h1>Learn to code by watching others</h1>
-      <p>
-        See how experienced developers solve problems in real-time. <br/>
+      <p id="description">
+        See how experienced developers solve problems in real-time.
         Watching scripted tutorials is great, but understanding how developers think is invaluable. 
       </p>
     </div>
@@ -28,33 +28,33 @@
         <span>Try it free 7 days&nbsp;</span>then $20/mo. thereafter
       </div>
       <div id="new-user-data-form" class="rounded-corners shadow-boxes">
-        <input type="text" class="new-user-data rounded-corners" 
-              placeholder="First Name"
-              onfocus="this.placeholder=''"
-              onblur="this.placeholder='First Name'">
-        <input type="text" class="new-user-data rounded-corners" 
-              placeholder="Last Name"
-              onfocus="this.placeholder=''"
-              onblur="this.placeholder='Last Name'">
-        <input type="text" class="new-user-data rounded-corners" 
-              placeholder="Email Address"
-              onfocus="this.placeholder=''"
-              onblur="this.placeholder='Email Address'">
-        <input type="text" class="new-user-data rounded-corners" 
-              placeholder="Password"
-              onfocus="this.placeholder=''"
-              onblur="this.placeholder='Password'">
-        
-        <div id="trial-claim">
-          <button type="submit" class="rounded-corners">
+        <div id="data-panel">
+          <input type="text" class="new-user-data rounded-corners" 
+                placeholder="First Name"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='First Name'">
+          <input type="text" class="new-user-data rounded-corners" 
+                placeholder="Last Name"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Last Name'">
+          <input type="text" class="new-user-data rounded-corners" 
+                placeholder="Email Address"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Email Address'">
+          <input type="text" class="new-user-data rounded-corners" 
+                placeholder="Password"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Password'">
+
+          <button type="submit" class="rounded-corners" id="trial-claim-button">
             Claim your free trial 
           </button>
-          <span id="disclaimer">
-            By clicking the button, you are agreeing to our 
-            <a href="" id="terms-and-services">Terms and Services</a>
-          </span>
         </div>
-
+        
+        <span id="disclaimer">
+          By clicking the button, you are agreeing to our 
+          <a href="" id="terms-and-services">Terms and Services</a>
+        </span>
       </div>
     </div>
   </div>
