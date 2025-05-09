@@ -135,6 +135,10 @@ p{
   box-shadow: 0px 4px 2px 0px hsl(154, 79%, 39%);
 }
 
+#trial-claim-button:hover{
+  background-color: hsla(154, 59%, 51%, 0.8);
+  cursor: pointer;
+}
 #disclaimer{
   font-size: 0.7rem;
   color: hsl(246, 25%, 77%);
