@@ -6,6 +6,7 @@
 style-guide.md
 README-template.md
 /design
+*.mm
 
 # Avoid accidental XD or Figma upload if you convert the design file
 #######################################################
