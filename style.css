@@ -20,12 +20,10 @@ body{
   background-image: url("./images/bg-intro-desktop.png");
   background-repeat: no-repeat;
   background-position: center;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 h1{
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-weight: 700;
   font-size: 3rem;
@@ -38,6 +36,14 @@ p{
   color: white;
 }
 
+footer{
+  margin-top: 10px;
+}
+
+#description{
+  margin: 10px 0px;
+}
+
 #container{
   display: flex;
   width: 80%;
@@ -45,6 +51,7 @@ p{
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  align-items: center;
 }
 
 #container > div{
@@ -52,7 +59,7 @@ p{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70%;
+  height: fit-content;
   margin: 80px 0;
   min-width: 280px;
 }
@@ -66,9 +73,9 @@ p{
 }
 
 .shadow-boxes{
-  -webkit-box-shadow: 0px 10px 2px 0px hsla(249, 10%, 26%, 0.2);
-  -moz-box-shadow: 0px 10px 2px 0px hsla(249, 10%, 26%, 0.2);
-  box-shadow: 0px 10px 2px 0px hsla(249, 10%, 26%, 0.2);
+  -webkit-box-shadow: 0px 6px 2px 0px hsla(249, 10%, 26%, 0.2);
+  -moz-box-shadow: 0px 6px 2px 0px hsla(249, 10%, 26%, 0.2);
+  box-shadow: 0px 6px 2px 0px hsla(249, 10%, 26%, 0.2);
 }
 
 #try-for-free{
@@ -79,6 +86,7 @@ p{
   justify-content: center;
   align-items: center;
   padding: 10px 50px;
+  margin: 10px 0;
 }
 .bolded-text{
   font-weight: bold;
@@ -89,7 +97,6 @@ p{
   background-color: white;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   margin: 10px 0;
   padding-top: 20px;
 }
@@ -98,7 +105,6 @@ p{
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .new-user-data{
@@ -168,6 +174,9 @@ p{
 
 .error-inputbox{
   border: 1px hsl(0, 100%, 74%) solid;
+  background-image: url("./images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
 .error-inputbox::placeholder{
@@ -196,9 +205,9 @@ p{
   }
 }
 
- @media /*(max-width: 1000px) and*/ (min-width: 1400px) { 
+ @media (min-width: 1100px) { 
 
   #left-container, #right-container{
-    max-width: 560px;
+    max-width: 500px;
   }
 }
